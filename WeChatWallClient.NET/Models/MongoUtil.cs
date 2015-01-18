@@ -15,7 +15,7 @@ namespace WeChatWallClient.NET.Models
 
         public MongoUtil()
         {
-            connectionString = "mongodb://42.159.109.200";
+            connectionString = "mongodb://localhost";
             client  = new MongoClient(connectionString);
             server = client.GetServer();
             database = server.GetDatabase("testwechat");

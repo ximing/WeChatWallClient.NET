@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* base 基础架构 */
+
+/*reset css*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+legend{color:#000;}
+a{ text-decoration:none;color:inherit;}
+input{cursor:pointer;}
+/*基础布局 原子类*/
+.w40{width:40%;}
+.w80p{width:80%;}
+.w190{width:190px;}
+.h50{height:50px;}
+.disl{display:inline;}
+.disib{display:inline-block;}
+.disb{display:block;}
+.disn{display:none;}
+.fl{float:left;}
+.fr{float:right;}
+.r30{right:30px;}
+.r100{right:100px;}
+.center{margin:0px auto;}
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.mt50{margin-top:50px;}
+.mb10{margin-bottom:10px;}
+.mb20{margin-bottom:20px;}
+.ml30{margin-left:30px;}
+.ml50{margin-left:50px;}
+.ml60{margin-left:60px;}
+.ml100{margin-left:100px;}
+.clear{width:100%;height:1px;clear:both;}
+/*字体 基础原子类*/
+.fs08{font-size:0.8em;}
+.fs10{font-size:1.0em;}
+.fs12{font-size:1.2em;}
+.fs15{font-size:1.5em;}
+.tcenter{text-align:center;}
+.error{color:#C00;font-size:0.8em;margin-left:2em;}
+.f-brown{color:#9B5B32;}
+.f-yellow{color:#F90;}
+
+/*占高层*/
+.div-60{height:60px;width:100%;position:relative;}
+.div-100{height:100px;width:100%;position:relative;}
+.div-142{height:142px;width:100%;position:relative;}

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Yeanzhi.Framework.Utility</id>
+    <version>1.0.0.0</version>
+    <title>Yeanzhi.Framework.Utility</title>
+    <authors>aoyizhaoxi</authors>
+    <owners>aoyizhaoxi</owners>
+    <licenseUrl>http://www.oureda.cn/</licenseUrl>
+    <projectUrl>http://www.oureda.cn/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>aoyizhaoxi</description>
+    <releaseNotes>基础架构工具类</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="6.0.3" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,37 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{font-family: "Microsoft yahei", "SimHei";}
+
+.wrap{position: relative;
+width: 100%;
+min-width: 900px;
+height: 768px;
+overflow: hidden;
+background: #fff url(../images/bg.jpg) center 0 no-repeat;}
+
+.wrap .container{width:900px;margin:0px auto;height:auto;}
+
+.container .header{width:100%;height:96px;margin-top:30px;margin-top:30px;}
+.header .left{width:200px;height:96px;float:left;line-height:96px;text-align:center;}
+.header .left img{width:100%;height:52px;margin-top:22px;}
+
+.header .right{width:680px;height:96px;float:right;}
+.header .right .word{width:580px;height:96px;background:url(../images/sc_bg.png) center 0 no-repeat;float:left;}
+.header .right .word .word-item-1{width:430px;height:96px;float:left;font-size:28px;line-height:48px;color:#FFF;text-align:center;}
+.header .right .word .word-item-2{width:135px;height:80px;margin-top:8px;float:left;color:#FFF;border-left:#FFF 1px dotted;text-align:center;}
+.header .right .word .word-item-2 span{font-size:28px;text-align:center;line-height:50px;}
+.header .right .word .word-item-2 p{font-size:18px;}
+.header .right .logo{width:96px;height:96px;float:right;}
+.header .right .logo img{width:93px;height:93px;}
+
+.content{width:100%;height:auto;margin-top:25px;overflow:hidden;}
+.content .inner{width:100%;height:inherit;position:relative;}
+.content ul{height:auto;}
+.content ul li{width:100%;height:190px;}
+.content ul li .single{width:100%;height:172px;border: 1px solid rgba(255,255,255,.7);background: rgba(255,255,255,.7);}
+.content ul li .single .pic{float:left;width:100px;display:table;height:inherit;padding-bottom:0px;position:relative;padding-left:15px;padding-right:15px}
+.content ul li .single .pic img{width:100%;border-radius:100%;display:table-cell; vertical-align:middle;text-align:center;margin-top:30px;}
+
+.content ul li .single .message{width:740px;height:inherit;float:right;padding-right:10px;}
+.content ul li .single .message .s-name{line-height:60px;font-size:28px;color: #bb233a;}
+.content ul li .single .message .s-word{color: #fa3072;font-size:25px;overflow:hidden;}
